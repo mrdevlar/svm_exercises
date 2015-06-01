@@ -4,8 +4,7 @@ Ntest=size(Xtest1,1);
 minx=min(min(X)); 
 maxx=max(max(X));
 
-%% Add noise to the digit maps
-
+% Add noise to the digit maps
 noise = 1*maxx; % sd for Gaussian noise
 
 Xn = X; 
